@@ -1,0 +1,68 @@
+repo_name: jalts-808/jenkins-101
+report_id: c0b96fdba52628f550e88fe4866092f3
+version: 0.1
+repo_type: Public
+timestamp: '2024-07-03T22:02:54+00:00'
+requested_by: jalts-808
+provider: github
+branch: master
+detected_tools_count: 5
+tools:
+- name: Python
+  description: A clear and powerful object-oriented programming language, comparable
+    to Perl, Ruby, Scheme, or Java.
+  website_url: https://www.python.org
+  open_source: true
+  hosted_saas: false
+  category: Languages & Frameworks
+  sub_category: Languages
+  image_url: https://img.stackshare.io/service/993/pUBY5pVj.png
+  detection_source_url: https://github.com/jalts-808/jenkins-101
+  detection_source: Repo Metadata
+- name: Docker
+  description: Enterprise Container Platform for High-Velocity Innovation.
+  website_url: https://www.docker.com/
+  license: Apache-2.0
+  open_source: true
+  hosted_saas: false
+  category: Build, Test, Deploy
+  sub_category: Virtual Machine Platforms & Containers
+  image_url: https://img.stackshare.io/service/586/n4u37v9t_400x400.png
+  detection_source_url: https://github.com/jalts-808/jenkins-101
+  detection_source: Repo Metadata
+- name: Git
+  description: Fast, scalable, distributed revision control system
+  website_url: http://git-scm.com/
+  open_source: true
+  hosted_saas: false
+  category: Build, Test, Deploy
+  sub_category: Version Control System
+  image_url: https://img.stackshare.io/service/1046/git.png
+  detection_source_url: https://github.com/jalts-808/jenkins-101
+  detection_source: Repo Metadata
+- name: PyPI
+  description: A repository of software for the Python programming language
+  website_url: https://pypi.org/
+  open_source: false
+  hosted_saas: false
+  category: Build, Test, Deploy
+  sub_category: Hosted Package Repository
+  image_url: https://img.stackshare.io/service/12572/-RIWgodF_400x400.jpg
+  detection_source_url: https://github.com/jalts-808/jenkins-101/blob/master/myapp/requirements.txt
+  detection_source: myapp/requirements.txt
+  last_updated_by: bradmorg
+  last_updated_on: 2022-05-31 22:16:35.000000000 Z
+- name: fire
+  description: A library for automatically generating command line interfaces
+  package_url: https://pypi.org/project/fire
+  version: 0.4.0
+  license: Apache-2.0
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: PyPI Packages
+  image_url: https://img.stackshare.io/package/20129/default_3146a05cf4dd77d8b50cff25709373c081ac5053.png
+  detection_source_url: https://github.com/jalts-808/jenkins-101/blob/master/myapp/requirements.txt
+  detection_source: myapp/requirements.txt
+  last_updated_by: bradmorg
+  last_updated_on: 2022-05-31 22:16:35.000000000 Z
